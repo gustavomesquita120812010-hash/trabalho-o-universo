@@ -1,0 +1,62 @@
+/* reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-image: url(../assets/mountains-universe-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+header {
+    height: 122px;
+
+    /* na maioria das vezes em que queremos colocar um item do lado do outro vamos utilizar display flex */
+    display: flex;
+    padding-inline: 72px;
+
+    align-items: center;
+    gap: 32px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 32px;
+
+        a {
+            font-size: 22px;
+            text-decoration: none;
+            color: #C4C4CC;
+        }
+
+        
+        .ativa {
+            color: #FFF;
+            font-weight: 700;
+        }
+    }
+}
+
+main {
+    margin-left: 102px;
+    color: #e1e1e6;
+    margin-top: 63px;
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        max-width: 648px;
+        line-height: 160%;
+        font-size: 18px;
+    }
+}
